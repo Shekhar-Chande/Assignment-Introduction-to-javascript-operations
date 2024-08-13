@@ -1,0 +1,142 @@
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category?
+
+Ans:- Javascript operators can be classified into different categories based on their functionality, such as Arithmetic operators, Assignment operators, Comparison operators, Logical operators, Bitwise operators, and more.
+
+
+1. Arithmetic operators :-  +, -, /, *, %, ++, --
+
+let x = 5;
+
+// addition operator
+console.log("Addition: x + 3 = ", x + 3);
+
+// subtraction operator
+console.log("Subtraction: x - 3 =", x - 3);
+
+// multiplication operator
+console.log("Multiplication: x * 3 =", x * 3);
+
+// division operator
+console.log("Division: x / 3 =", x / 3);
+
+// remainder operator
+console.log("Remainder: x % 3 =", x % 3);
+
+// increment operator
+console.log("Increment: ++x =", ++x);
+
+// decrement operator
+console.log("Decrement: --x =", --x);
+
+// exponentiation operator
+console.log("Exponentiation: x ** 3 =", x ** 3);
+
+
+
+
+2.  Assignment operators
+
+=	Assignment Operator	
++=	Addition Assignment	
+-=	Subtraction Assignment	
+*=	Multiplication Assignment	
+/=	Division Assignment	
+%=	Remainder Assignment	
+**=	Exponentiation Assignment	
+
+
+let a = 7;
+console.log("Assignment: a = 7, a =", a);
+
+// addition assignment operator
+a += 5;  // a = a + 5
+console.log("Addition Assignment: a += 5, a =", a);
+
+// subtraction assignment operator
+a -= 5;  // a = a - 5
+console.log("Subtraction Assignment: a -= 5, a =", a);
+
+// multiplication assignment operator
+a *= 2;  // a = a * 2
+console.log("Multiplication Assignment: a *= 2, a =", a);
+
+// division assignment operator
+a /= 2;  // a = a / 2
+console.log("Division Assignment: a /= 2, a =", a);
+
+// remainder assignment operator
+a %= 2;  // a = a % 2
+console.log("Remainder Assignment: a %= 2, a =", a);
+
+// exponentiation assignment operator
+a **= 2;  // a = a**2
+console.log("Exponentiation Assignment: a **= 7, a =", a)
+
+
+
+
+
+3. Comparison operators
+
+==	Equal to	
+!=	Not equal to	
+>	Greater than	
+<	Less than	
+>=	Greater than or equal to	
+<=	Less than or equal to	
+===	Strictly equal to	
+!==	Strictly not equal to
+
+
+
+// equal to operator
+console.log("Equal to: 2 == 2 is", 2 == 2);
+
+// not equal operator
+console.log("Not equal to: 3 != 3 is", 3 != 3);
+
+// strictly equal to operator
+console.log("Strictly equal to: 2 === '2' is", 2 === '2');
+
+// strictly not equal to operator
+console.log("Strictly not equal to: 2 !== '2' is", 2 !== '2');
+
+// greater than operator
+console.log("Greater than: 3 > 3 is", 3 > 3);
+
+// less than operator
+console.log("Less than: 2 > 2 is", 2 > 2);
+
+// greater than or equal to operator
+console.log("Greater than or equal to: 3 >= 3 is", 3 >= 3);
+
+// less than or equal to operator
+console.log("Less than or equal to: 2 <= 2 is", 2 <= 2);
+
+
+
+
+4. Logical operators
+
+&& (Logical AND)	
+|| (Logical OR)	
+! (Logical NOT)	
+
+
+
+
+let x = 3;
+
+// logical AND
+console.log((x < 5) && (x > 0));  // true
+console.log((x < 5) && (x > 6));  // false
+
+// logical OR
+console.log((x > 2) || (x > 5));  // true
+console.log((x > 3) || (x < 0));  // false
+
+// logical NOT
+console.log(!(x == 3));  // false
+console.log(!(x < 2));  // true

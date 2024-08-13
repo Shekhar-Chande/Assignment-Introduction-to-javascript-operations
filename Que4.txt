@@ -1,0 +1,19 @@
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+
+
+
+Ans.:-  Two operator characteristics determine how operands group with operators: precedence and associativity. Precedence is the priority for grouping different types of operators with their operands. Associativity is the left-to-right or right-to-left order for grouping operands to operators that have the same precedence. An operator's precedence is meaningful only if other operators with higher or lower precedence are present. Expressions with higher-precedence operators are evaluated first. The grouping of operands can be forced by using parentheses.
+
+For example, in the following statements, the value of 5 is assigned to both a and b because of the right-to-left associativity of the = operator. The value of c is assigned to b first, and then the value of b is assigned to a.
+b = 9;
+c = 5;
+a = b = c;
+
+Because the order of subexpression evaluation is not specified, you can explicitly force the grouping of operands with operators by using parentheses.
+
+In the expression
+a + b * c / d
+
+the * and / operations are performed before + because of precedence. b is multiplied by c before it is divided by d because of associativity.
+The following tables list the C and C++ language operators in order of precedence and show the direction of associativity for each operator. Operators that have the same rank have the same precedence.
